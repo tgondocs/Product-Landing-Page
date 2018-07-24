@@ -131,12 +131,7 @@ h2 .fas {
 #videodiv {
 	margin-top: 60px;
 }
-
-iframe {
-    max-width: 500px;
-    width: 100%;
-  }
-  
+ 
  
 #flexcon {
 	margin-top: 50px !important;
@@ -220,4 +215,152 @@ button:hover {
 
 #footright a {
 	padding: 5px 8px;
+}
+
+@media screen and (max-device-width: 768px) {
+	#leftTab {
+		font-size: 50px;
+		margin-bottom: 0;
+		padding-top: 30px;
+		line-height: 60px;
+	}
+	
+	#header-img {
+		height: 60px;
+		margin: auto;
+		width: auto;
+	}
+	
+	#rightTab {
+		font-size: 50px;
+		margin: 0 10px 15px 0;
+		padding-top: 0;
+	}
+		
+	#ede {
+		margin-top: 300px;
+		width: 100%;
+	}
+	
+	#headline {
+		width: 80%;
+		margin: auto;
+		font-size: 40px;
+	}
+	
+	#pgraphs {
+		width: 95%;
+		margin: auto;
+	}
+	
+	#pgraphs p {
+		font-size: 12px;
+	}
+	
+	#pgraphs span {
+		padding-right: 45px;
+	}
+	
+	#pgraphs ph2 {
+		margin-bottom: 15px;
+	}
+	
+	#email {
+		width: 60%;
+		height: 50px;
+	}
+
+	input::placeholder {
+		font-family: "Indie Flower", cursive;
+		font-size: 35px;
+		padding-left: 3px;
+}
+
+
+	#submit {
+		display: block;
+		width: 30%;
+		height: 50px;
+		margin: auto;
+		margin-top: 10px;
+		font-size: 35px;
+		background-color: yellow;
+		padding: 5px 30px;
+	}
+
+	#intro {
+		margin-bottom: 100px;
+	}
+	
+	#iframe {
+		width: 100%;
+		height: auto;
+	}
+	
+	#flexcon {
+		margin-top: 40px !important;
+		width: 100%;
+		margin: auto;
+		display: inline-block;
+		margin-bottom: 120px;	
+	}
+	
+	#box1, #box2, #box3 {
+		width: 70%;
+		height: auto;
+		margin: auto;
+		box-sizing: border-box;
+		border: 2px solid rgb(53, 154, 255);
+		margin-bottom: 60px;
+	}
+	
+	.begyh {
+		font-size: 50px;
+	}
+
+	#box3div h4 {
+		font-size: 45px;
+	}
+	
+	#flexcon p {
+		font-size: 35px;
+		width: 90%;
+	}
+	
+	ul {
+		width: 90%;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+	
+	li {
+		font-size: 35px;
+	}
+	
+	.image {
+		width: 50vw;
+		height: auto;
+	}
+	
+	.butt {
+		width: 100%;
+	}
+	
+	button {
+		width: 30%;
+		height: 50px;
+		margin: auto;
+		margin-bottom: 30px;
+		font-size: 35px;
+		background-color: yellow;
+		padding: 5px 30px;
+}
+	
+	#footright a {
+		font-size: 36px;
+	}
+	
+	#footright p {
+		font-size: 10px;
+	}		
 }
