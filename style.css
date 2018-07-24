@@ -289,6 +289,7 @@ button:hover {
 	}
 
 	#intro {
+		margin-top: 100px;
 		margin-bottom: 100px;
 	}
 	
@@ -354,7 +355,7 @@ button:hover {
 		font-size: 35px;
 		background-color: yellow;
 		padding: 5px 30px;
-}
+	}
 	
 	#footright a {
 		font-size: 36px;
